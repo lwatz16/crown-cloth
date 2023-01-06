@@ -6,12 +6,11 @@ import { signOutUser } from "../../utils/firebase/firebase.utils";
 import './navbar.styles.scss';
 
 const NavBar = () => {
-  const { currentUser, setCurrentUser } = useContext(UserContext);
+  const { currentUser } = useContext(UserContext);
 
   const handleSignOut = async () => {
     await signOutUser();
-    setCurrentUser(null);
-  }
+  };
 
   return (
     <Fragment>
@@ -37,6 +36,6 @@ const NavBar = () => {
       <Outlet />
     </Fragment>
   ); 
-}
+};
 
 export default NavBar;
