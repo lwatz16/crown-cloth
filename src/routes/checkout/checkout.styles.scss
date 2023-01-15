@@ -1,0 +1,19 @@
+img {
+  width: 18%;
+}
+
+.checkout-items-container {
+  display: flex;
+  align-items: center;
+}
+
+.checkout-details {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.quantity-btn {
+  margin: 0px 10px;
+}
