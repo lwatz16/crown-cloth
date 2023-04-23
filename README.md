@@ -1,70 +1,89 @@
-# Getting Started with Create React App
+# Crown Cloth
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Overview
 
-## Available Scripts
+[Crown Cloth](https://lively-maamoul-b95fa8.netlify.app/) is an e-commerce clothing store built with React and Firebase.
 
-In the project directory, you can run:
+# Learning Goals
 
-### `npm start`
+- React
+- React Router
+- API
+- Asychronous JavaScript
+- CSS Flexbox
+- SCSS
+- Styled Components
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+# Getting Started
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+To get a local copy up and running follow these simple steps:
 
-### `npm test`
+## Installation
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. In your terminal, clone the repo
+   ```sh
+   git clone git@github.com:lilydev16/crown-cloth.git
+   ```
+2. cd into the root directory
+   ```sh
+   cd crown-cloth
+   ```
+3. Install NPM packages
+   ```sh
+   npm install
+   ```
+4. Start the server to view the application in the browser
+   ```sh
+   npm start
+   ```
+   - Runs the app in the development mode.
+   - Open http://localhost:3000 to view the app in the browser.
+   - The page will reload when you make edits.
 
-### `npm run build`
+<!-- # Challenges and Wins -->
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<!-- # Features
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### User Authentication
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Responsive Design
 
-### `npm run eject`
+![Responsive Design]() -->
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+# Future Additions
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- Implement Stripe API to accept payments
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+# Technologies Used
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- React
+- Context API for state management
+- React Router
+- Javascript
+- Firebase
+- Styled Component (CSS-in-JS library)
+- HTML/CSS
+- SCSS
+- Chrome Dev Tools
+  - Lighthouse (accessibility)
+  - React Dev Tools
 
-## Learn More
+# Deployment
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+This application is hosted on [Netlify](https://www.netlify.com/). Please use this deploy link to skip installation and view the application: [Crown Cloth](https://lively-maamoul-b95fa8.netlify.app/).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+# Contributors
 
-### Code Splitting
+Lauralyn Watson
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- [GitHub](https://github.com/lilydev16)
+- [LinkedIn](https://www.linkedin.com/in/lauralyn-watson/)
+- [Portfolio](https://portfolio-lswatson16.vercel.app/)
+- [Turing Alumni Portfolio](https://terminal.turing.edu/profiles/1340)
 
-### Analyzing the Bundle Size
+# Credits
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- [Create React App](https://create-react-app.dev/)
+- [Netlify](https://www.netlify.com/)
+- [Firebase](https://firebase.google.com/)
+- [Styled Components](https://styled-components.com/)
